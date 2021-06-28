@@ -14,7 +14,7 @@ namespace DevOpsTest.test
         public void GetResult()
         {
             var result = controller.GetValue();
-            Assert.Equal("DevOpsTest",result.Value);
+            Assert.Equal("DevOps With Pipline and trigers",result.Value);
 
         }
 

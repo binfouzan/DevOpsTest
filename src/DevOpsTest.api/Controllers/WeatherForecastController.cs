@@ -20,7 +20,7 @@ namespace DevOpsTest.api.Controllers
         [HttpGet]
         public ActionResult<string> GetValue()
         {
-            return "DevOpsTest";
+            return "DevOps With Pipline and trigers";
         }
 
         [HttpGet]
