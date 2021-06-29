@@ -25,7 +25,7 @@ steps:
 
 - task: DotNetCoreCLI@2
   displayName: 'dotnet publish --configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
-  input: 
+  inputs: 
     command: publish
     publishWebProjects: false
     projects: 'src/DevOpsTest.api/DevOpsTest.api.csproj'
